@@ -1,0 +1,9 @@
+#!/usr/bin/sh
+
+export INPUT_PATH="./input"
+export OUTPUT_PATH="./output"
+
+mkdir -p $INPUT_PATH
+mkdir -p $OUTPUT_PATH
+
+docker-compose run manim $@
